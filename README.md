@@ -10,4 +10,9 @@ terraform plan
 terraform apply
 cat terraform.tfstate
 
+terraform show
 
+
+
+
+terraform destroy
