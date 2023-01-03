@@ -6,6 +6,8 @@ terraform init
 # use aws provider: https://registry.terraform.io/providers/hashicorp/aws/
 
 ls .terraform/providers
-
+terraform plan
+terraform apply
+cat terraform.tfstate
 
 
