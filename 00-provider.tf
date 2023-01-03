@@ -1,14 +1,14 @@
-form {
+terraform {
   required_providers {
     vsphere = {
-      version = '1.15.0'
+      version = "1.15.0"
     }
   }
 }
 provider "vsphere" {
-  user = "root"
-  password = "1qaz@WSX3edc"
-  vsphere_server = '172.16.8.133'
+  user           = var.provider_spec.username
+  password       = var.provider_spec.password
+  vsphere_server = var.provider_spec.vsphere_server
 
   allow_unverified_ssl = true
 }
