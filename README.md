@@ -14,7 +14,7 @@ terraform show
 # using variables
 # terraform plan -var='vm_name=foo'   # inline
 # terraform plan -var-file=tm.tfvars  # file
-# environment
+# export TF_VAR_image_id=amiabc123    # environment
 
 
 
